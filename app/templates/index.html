@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <title>My Deshboard</title>
+    <title>Home</title>
 </head>
 <body>
     {% include 'navbar.html' %}
     <div class="main">
-        <h1>My Deshboard</h1>
+        <h1>Home</h1>
         <div class="last_trade_dates">
             {% for chart in charts_data %}
             <div class="chart">
